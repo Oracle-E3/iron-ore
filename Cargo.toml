@@ -1,0 +1,18 @@
+[package]
+name = "iron-ore"
+version = "0.1.0"
+edition = "2021"
+authors = ["Daniel Cain <blindoracle3@gmail.com>"]
+
+[lib]
+name = "server_manager"
+path = "src/lib.rs"
+
+[[bin]]
+name = "iron_ore"
+path = "src/main.rs"
+
+[dependencies]
+reqwest = { version = "0.12.12", features = ["blocking"] }
+strum = "0.26.3"
+strum_macros = "0.26.4"
