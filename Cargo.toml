@@ -13,6 +13,7 @@ name = "iron_ore"
 path = "src/main.rs"
 
 [dependencies]
+regex = "1.11.1"
 reqwest = { version = "0.12.12", features = ["blocking"] }
 strum = "0.26.3"
 strum_macros = "0.26.4"
